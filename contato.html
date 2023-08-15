@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+        *{  margin: 0;
+            padding: 0;
+            background-color: #000;
+            list-style: none;
+            text-decoration: none;}
+        header {
+            height: 80px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        nav {
+            width: 60%;
+        }
+
+        ul {
+            display: flex;
+            width: 100%;
+            justify-content: space-between ;
+        }
+
+        li {
+            list-style: none;
+            color:aliceblue;
+            cursor: pointer;
+            font-size: 20px;
+            transition: .5s;
+            font-family: 'Kdam Thmor Pro', sans-serif;
+        }
+
+        li:hover {
+            color: #D21617;
+        }
+
+        #logo {
+            width: 150px;
+            height: auto;
+        }
+        .contatos{
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            color: #fff;
+            margin-top: 20px;
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            font-size: 20px;
+            
+        }
+        .telefone{
+            padding: 10px;
+            margin-bottom: 8px;
+            border: 2px solid #D21617;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            transition: .8s;
+        }
+
+        .email{
+            padding: 8px;
+            margin-bottom: 8px;
+            border: 2px solid #D21617;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            transition: .8s;
+        }
+
+        .instagram{
+            padding: 8px;
+            margin-bottom: 8px;
+            border: 2px solid #D21617;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            transition: .8s;
+        }
+
+        .telefone:hover {
+            background-color: #F2CB05;
+            color: #F23030;
+            transform: scale(1.03);
+        }
+
+        .email:hover {
+            background-color: #F2CB05;
+            color: #F23030;
+            transform: scale(1.03);
+        }
+
+        .instagram:hover {
+            background-color: #F2CB05;
+            color: #F23030;
+            transform: scale(1.03);
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <img id="logo" src="./image-removebg-preview (6).png"/>
+        <nav>
+            <ul>
+                <a href="./proj1.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div class="contatos">
+        <div class="telefone">
+            Telefone - (81) 98694-6785
+        </div>
+        <div class="email">
+            E-mail - henriquemelomoura@gmail.com
+        </div>
+        <div class="instagram">
+            Instagram - @guilherme.hmmoura
+        </div>
+    </div>
+</body>
+</html>
